@@ -1,0 +1,8 @@
+
+****** Webtalk v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Apr  8 18:07:35 2023...

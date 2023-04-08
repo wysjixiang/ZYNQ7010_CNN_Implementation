@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Apr  8 22:48:14 2023
+# Process ID: 13072
+# Current directory: D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.runs/synth_1
+# Command line: vivado.exe -log ZYNQ_implement.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ZYNQ_implement.tcl
+# Log file: D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.runs/synth_1/ZYNQ_implement.vds
+# Journal file: D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ZYNQ_implement.tcl -notrace

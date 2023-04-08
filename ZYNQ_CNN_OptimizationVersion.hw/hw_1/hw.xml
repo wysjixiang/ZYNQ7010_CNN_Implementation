@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2017.4 (64-bit)                     -->
+<!--                                                              -->
+<!-- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.        -->
+
+<hwsession version="1" minor="2">
+  <device name="xc7z010_1" gui_info="dashboard1=hw_ila_1[xc7z010_1/hw_ila_1/Settings=ILA_SETTINGS_1;xc7z010_1/hw_ila_1/Status=ILA_STATUS_1;xc7z010_1/hw_ila_1/Capture Setup=ILA_CAPTURE_1;xc7z010_1/hw_ila_1/Waveform=ILA_WAVE_1;xc7z010_1/hw_ila_1/Trigger Setup=ILA_TRIGGER_1;]"/>
+  <ObjectList object_type="hw_device" gui_info="">
+    <Object name="xc7z010_1" gui_info="">
+      <Properties Property="FULL_PROBES.FILE" value="$_project_name_.runs/impl_1/ZYNQ_implement.ltx"/>
+      <Properties Property="PROBES.FILE" value="$_project_name_.runs/impl_1/ZYNQ_implement.ltx"/>
+      <Properties Property="PROGRAM.HW_BITSTREAM" value="$_project_name_.runs/impl_1/ZYNQ_implement.bit"/>
+      <Properties Property="SLR.COUNT" value="C:/Users/wysji/AppData/Roaming/Xilinx/Vivado/1"/>
+    </Object>
+  </ObjectList>
+  <ObjectList object_type="hw_ila" gui_info="">
+    <Object name="ila_0_inst" gui_info="">
+      <Properties Property="CONTROL.TRIGGER_CONDITION" value="AND"/>
+      <Properties Property="CORE_REFRESH_RATE_MS" value="500"/>
+    </Object>
+  </ObjectList>
+  <ObjectList object_type="hw_probe" gui_info="">
+    <Object name="done_OBUF" gui_info="Trigger Setup=0"/>
+  </ObjectList>
+  <probeset name="hw project" active="false">
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq160&apos;hXXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq160&apos;hXXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe1[159:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq160&apos;hXXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="data_out[159]"/>
+        <net name="data_out[158]"/>
+        <net name="data_out[157]"/>
+        <net name="data_out[156]"/>
+        <net name="data_out[155]"/>
+        <net name="data_out[154]"/>
+        <net name="data_out[153]"/>
+        <net name="data_out[152]"/>
+        <net name="data_out[151]"/>
+        <net name="data_out[150]"/>
+        <net name="data_out[149]"/>
+        <net name="data_out[148]"/>
+        <net name="data_out[147]"/>
+        <net name="data_out[146]"/>
+        <net name="data_out[145]"/>
+        <net name="data_out[144]"/>
+        <net name="data_out[143]"/>
+        <net name="data_out[142]"/>
+        <net name="data_out[141]"/>
+        <net name="data_out[140]"/>
+        <net name="data_out[139]"/>
+        <net name="data_out[138]"/>
+        <net name="data_out[137]"/>
+        <net name="data_out[136]"/>
+        <net name="data_out[135]"/>
+        <net name="data_out[134]"/>
+        <net name="data_out[133]"/>
+        <net name="data_out[132]"/>
+        <net name="data_out[131]"/>
+        <net name="data_out[130]"/>
+        <net name="data_out[129]"/>
+        <net name="data_out[128]"/>
+        <net name="data_out[127]"/>
+        <net name="data_out[126]"/>
+        <net name="data_out[125]"/>
+        <net name="data_out[124]"/>
+        <net name="data_out[123]"/>
+        <net name="data_out[122]"/>
+        <net name="data_out[121]"/>
+        <net name="data_out[120]"/>
+        <net name="data_out[119]"/>
+        <net name="data_out[118]"/>
+        <net name="data_out[117]"/>
+        <net name="data_out[116]"/>
+        <net name="data_out[115]"/>
+        <net name="data_out[114]"/>
+        <net name="data_out[113]"/>
+        <net name="data_out[112]"/>
+        <net name="data_out[111]"/>
+        <net name="data_out[110]"/>
+        <net name="data_out[109]"/>
+        <net name="data_out[108]"/>
+        <net name="data_out[107]"/>
+        <net name="data_out[106]"/>
+        <net name="data_out[105]"/>
+        <net name="data_out[104]"/>
+        <net name="data_out[103]"/>
+        <net name="data_out[102]"/>
+        <net name="data_out[101]"/>
+        <net name="data_out[100]"/>
+        <net name="data_out[99]"/>
+        <net name="data_out[98]"/>
+        <net name="data_out[97]"/>
+        <net name="data_out[96]"/>
+        <net name="data_out[95]"/>
+        <net name="data_out[94]"/>
+        <net name="data_out[93]"/>
+        <net name="data_out[92]"/>
+        <net name="data_out[91]"/>
+        <net name="data_out[90]"/>
+        <net name="data_out[89]"/>
+        <net name="data_out[88]"/>
+        <net name="data_out[87]"/>
+        <net name="data_out[86]"/>
+        <net name="data_out[85]"/>
+        <net name="data_out[84]"/>
+        <net name="data_out[83]"/>
+        <net name="data_out[82]"/>
+        <net name="data_out[81]"/>
+        <net name="data_out[80]"/>
+        <net name="data_out[79]"/>
+        <net name="data_out[78]"/>
+        <net name="data_out[77]"/>
+        <net name="data_out[76]"/>
+        <net name="data_out[75]"/>
+        <net name="data_out[74]"/>
+        <net name="data_out[73]"/>
+        <net name="data_out[72]"/>
+        <net name="data_out[71]"/>
+        <net name="data_out[70]"/>
+        <net name="data_out[69]"/>
+        <net name="data_out[68]"/>
+        <net name="data_out[67]"/>
+        <net name="data_out[66]"/>
+        <net name="data_out[65]"/>
+        <net name="data_out[64]"/>
+        <net name="data_out[63]"/>
+        <net name="data_out[62]"/>
+        <net name="data_out[61]"/>
+        <net name="data_out[60]"/>
+        <net name="data_out[59]"/>
+        <net name="data_out[58]"/>
+        <net name="data_out[57]"/>
+        <net name="data_out[56]"/>
+        <net name="data_out[55]"/>
+        <net name="data_out[54]"/>
+        <net name="data_out[53]"/>
+        <net name="data_out[52]"/>
+        <net name="data_out[51]"/>
+        <net name="data_out[50]"/>
+        <net name="data_out[49]"/>
+        <net name="data_out[48]"/>
+        <net name="data_out[47]"/>
+        <net name="data_out[46]"/>
+        <net name="data_out[45]"/>
+        <net name="data_out[44]"/>
+        <net name="data_out[43]"/>
+        <net name="data_out[42]"/>
+        <net name="data_out[41]"/>
+        <net name="data_out[40]"/>
+        <net name="data_out[39]"/>
+        <net name="data_out[38]"/>
+        <net name="data_out[37]"/>
+        <net name="data_out[36]"/>
+        <net name="data_out[35]"/>
+        <net name="data_out[34]"/>
+        <net name="data_out[33]"/>
+        <net name="data_out[32]"/>
+        <net name="data_out[31]"/>
+        <net name="data_out[30]"/>
+        <net name="data_out[29]"/>
+        <net name="data_out[28]"/>
+        <net name="data_out[27]"/>
+        <net name="data_out[26]"/>
+        <net name="data_out[25]"/>
+        <net name="data_out[24]"/>
+        <net name="data_out[23]"/>
+        <net name="data_out[22]"/>
+        <net name="data_out[21]"/>
+        <net name="data_out[20]"/>
+        <net name="data_out[19]"/>
+        <net name="data_out[18]"/>
+        <net name="data_out[17]"/>
+        <net name="data_out[16]"/>
+        <net name="data_out[15]"/>
+        <net name="data_out[14]"/>
+        <net name="data_out[13]"/>
+        <net name="data_out[12]"/>
+        <net name="data_out[11]"/>
+        <net name="data_out[10]"/>
+        <net name="data_out[9]"/>
+        <net name="data_out[8]"/>
+        <net name="data_out[7]"/>
+        <net name="data_out[6]"/>
+        <net name="data_out[5]"/>
+        <net name="data_out[4]"/>
+        <net name="data_out[3]"/>
+        <net name="data_out[2]"/>
+        <net name="data_out[1]"/>
+        <net name="data_out[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;b1"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe0[0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;b1"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="done_OBUF"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq160&apos;hXXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq160&apos;hXXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe1[159:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq160&apos;hXXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="wire_out[159]"/>
+        <net name="wire_out[158]"/>
+        <net name="wire_out[157]"/>
+        <net name="wire_out[156]"/>
+        <net name="wire_out[155]"/>
+        <net name="wire_out[154]"/>
+        <net name="wire_out[153]"/>
+        <net name="wire_out[152]"/>
+        <net name="wire_out[151]"/>
+        <net name="wire_out[150]"/>
+        <net name="wire_out[149]"/>
+        <net name="wire_out[148]"/>
+        <net name="wire_out[147]"/>
+        <net name="wire_out[146]"/>
+        <net name="wire_out[145]"/>
+        <net name="wire_out[144]"/>
+        <net name="wire_out[143]"/>
+        <net name="wire_out[142]"/>
+        <net name="wire_out[141]"/>
+        <net name="wire_out[140]"/>
+        <net name="wire_out[139]"/>
+        <net name="wire_out[138]"/>
+        <net name="wire_out[137]"/>
+        <net name="wire_out[136]"/>
+        <net name="wire_out[135]"/>
+        <net name="wire_out[134]"/>
+        <net name="wire_out[133]"/>
+        <net name="wire_out[132]"/>
+        <net name="wire_out[131]"/>
+        <net name="wire_out[130]"/>
+        <net name="wire_out[129]"/>
+        <net name="wire_out[128]"/>
+        <net name="wire_out[127]"/>
+        <net name="wire_out[126]"/>
+        <net name="wire_out[125]"/>
+        <net name="wire_out[124]"/>
+        <net name="wire_out[123]"/>
+        <net name="wire_out[122]"/>
+        <net name="wire_out[121]"/>
+        <net name="wire_out[120]"/>
+        <net name="wire_out[119]"/>
+        <net name="wire_out[118]"/>
+        <net name="wire_out[117]"/>
+        <net name="wire_out[116]"/>
+        <net name="wire_out[115]"/>
+        <net name="wire_out[114]"/>
+        <net name="wire_out[113]"/>
+        <net name="wire_out[112]"/>
+        <net name="wire_out[111]"/>
+        <net name="wire_out[110]"/>
+        <net name="wire_out[109]"/>
+        <net name="wire_out[108]"/>
+        <net name="wire_out[107]"/>
+        <net name="wire_out[106]"/>
+        <net name="wire_out[105]"/>
+        <net name="wire_out[104]"/>
+        <net name="wire_out[103]"/>
+        <net name="wire_out[102]"/>
+        <net name="wire_out[101]"/>
+        <net name="wire_out[100]"/>
+        <net name="wire_out[99]"/>
+        <net name="wire_out[98]"/>
+        <net name="wire_out[97]"/>
+        <net name="wire_out[96]"/>
+        <net name="wire_out[95]"/>
+        <net name="wire_out[94]"/>
+        <net name="wire_out[93]"/>
+        <net name="wire_out[92]"/>
+        <net name="wire_out[91]"/>
+        <net name="wire_out[90]"/>
+        <net name="wire_out[89]"/>
+        <net name="wire_out[88]"/>
+        <net name="wire_out[87]"/>
+        <net name="wire_out[86]"/>
+        <net name="wire_out[85]"/>
+        <net name="wire_out[84]"/>
+        <net name="wire_out[83]"/>
+        <net name="wire_out[82]"/>
+        <net name="wire_out[81]"/>
+        <net name="wire_out[80]"/>
+        <net name="wire_out[79]"/>
+        <net name="wire_out[78]"/>
+        <net name="wire_out[77]"/>
+        <net name="wire_out[76]"/>
+        <net name="wire_out[75]"/>
+        <net name="wire_out[74]"/>
+        <net name="wire_out[73]"/>
+        <net name="wire_out[72]"/>
+        <net name="wire_out[71]"/>
+        <net name="wire_out[70]"/>
+        <net name="wire_out[69]"/>
+        <net name="wire_out[68]"/>
+        <net name="wire_out[67]"/>
+        <net name="wire_out[66]"/>
+        <net name="wire_out[65]"/>
+        <net name="wire_out[64]"/>
+        <net name="wire_out[63]"/>
+        <net name="wire_out[62]"/>
+        <net name="wire_out[61]"/>
+        <net name="wire_out[60]"/>
+        <net name="wire_out[59]"/>
+        <net name="wire_out[58]"/>
+        <net name="wire_out[57]"/>
+        <net name="wire_out[56]"/>
+        <net name="wire_out[55]"/>
+        <net name="wire_out[54]"/>
+        <net name="wire_out[53]"/>
+        <net name="wire_out[52]"/>
+        <net name="wire_out[51]"/>
+        <net name="wire_out[50]"/>
+        <net name="wire_out[49]"/>
+        <net name="wire_out[48]"/>
+        <net name="wire_out[47]"/>
+        <net name="wire_out[46]"/>
+        <net name="wire_out[45]"/>
+        <net name="wire_out[44]"/>
+        <net name="wire_out[43]"/>
+        <net name="wire_out[42]"/>
+        <net name="wire_out[41]"/>
+        <net name="wire_out[40]"/>
+        <net name="wire_out[39]"/>
+        <net name="wire_out[38]"/>
+        <net name="wire_out[37]"/>
+        <net name="wire_out[36]"/>
+        <net name="wire_out[35]"/>
+        <net name="wire_out[34]"/>
+        <net name="wire_out[33]"/>
+        <net name="wire_out[32]"/>
+        <net name="wire_out[31]"/>
+        <net name="wire_out[30]"/>
+        <net name="wire_out[29]"/>
+        <net name="wire_out[28]"/>
+        <net name="wire_out[27]"/>
+        <net name="wire_out[26]"/>
+        <net name="wire_out[25]"/>
+        <net name="wire_out[24]"/>
+        <net name="wire_out[23]"/>
+        <net name="wire_out[22]"/>
+        <net name="wire_out[21]"/>
+        <net name="wire_out[20]"/>
+        <net name="wire_out[19]"/>
+        <net name="wire_out[18]"/>
+        <net name="wire_out[17]"/>
+        <net name="wire_out[16]"/>
+        <net name="wire_out[15]"/>
+        <net name="wire_out[14]"/>
+        <net name="wire_out[13]"/>
+        <net name="wire_out[12]"/>
+        <net name="wire_out[11]"/>
+        <net name="wire_out[10]"/>
+        <net name="wire_out[9]"/>
+        <net name="wire_out[8]"/>
+        <net name="wire_out[7]"/>
+        <net name="wire_out[6]"/>
+        <net name="wire_out[5]"/>
+        <net name="wire_out[4]"/>
+        <net name="wire_out[3]"/>
+        <net name="wire_out[2]"/>
+        <net name="wire_out[1]"/>
+        <net name="wire_out[0]"/>
+      </nets>
+    </probe>
+  </probeset>
+</hwsession>

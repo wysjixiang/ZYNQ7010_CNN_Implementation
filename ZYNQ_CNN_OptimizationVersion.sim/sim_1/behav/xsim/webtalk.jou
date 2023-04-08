@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Apr  8 21:52:15 2023
+# Process ID: 15140
+# Current directory: D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.sim/sim_1/behav/xsim/xsim.dir/ZYNQ_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.sim/sim_1/behav/xsim/xsim.dir/ZYNQ_tb_behav/webtalk/xsim_webtalk.tcl -notrace

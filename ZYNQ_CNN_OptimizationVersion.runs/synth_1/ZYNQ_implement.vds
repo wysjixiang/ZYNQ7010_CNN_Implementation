@@ -1,0 +1,1182 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Apr  8 22:48:14 2023
+# Process ID: 13072
+# Current directory: D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.runs/synth_1
+# Command line: vivado.exe -log ZYNQ_implement.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ZYNQ_implement.tcl
+# Log file: D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.runs/synth_1/ZYNQ_implement.vds
+# Journal file: D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ZYNQ_implement.tcl -notrace
+Command: synth_design -top ZYNQ_implement -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 2204 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 427.230 ; gain = 96.457
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ZYNQ_implement' [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/ZYNQ_implement.v:4]
+	Parameter width bound to: 16 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/ZYNQ_implement.v:13]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/ZYNQ_implement.v:15]
+INFO: [Synth 8-638] synthesizing module 'top_layer' [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/top_layer.v:7]
+	Parameter width bound to: 16 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/top_layer.v:29]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/top_layer.v:30]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/top_layer.v:32]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/top_layer.v:33]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/top_layer.v:34]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/top_layer.v:36]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/top_layer.v:37]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/top_layer.v:38]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/top_layer.v:40]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/top_layer.v:41]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/top_layer.v:42]
+INFO: [Synth 8-638] synthesizing module 'Convo_MaxpoolingLayer' [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/Convo_MaxpoolingLayer.v:3]
+	Parameter width bound to: 16 - type: integer 
+	Parameter num bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'Convo_SingleNode' [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/Convo_SingleNode.v:11]
+	Parameter width bound to: 16 - type: integer 
+	Parameter num_data bound to: 4 - type: integer 
+	Parameter s_idle bound to: 0 - type: integer 
+	Parameter s_run bound to: 1 - type: integer 
+INFO: [Synth 8-226] default block is never used [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/Convo_SingleNode.v:55]
+INFO: [Synth 8-638] synthesizing module 'single_convo_compute' [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/single_convo_compute.v:4]
+	Parameter num bound to: 4 - type: integer 
+	Parameter width bound to: 16 - type: integer 
+	Parameter s_idle bound to: 0 - type: integer 
+	Parameter s_1 bound to: 1 - type: integer 
+	Parameter s_2 bound to: 2 - type: integer 
+	Parameter s_3 bound to: 3 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'FP16_mult' [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/FP16_mult.v:4]
+INFO: [Synth 8-256] done synthesizing module 'FP16_mult' (1#1) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/FP16_mult.v:4]
+INFO: [Synth 8-226] default block is never used [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/single_convo_compute.v:52]
+INFO: [Synth 8-638] synthesizing module 'FP16_add' [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/FP16_add.v:5]
+INFO: [Synth 8-256] done synthesizing module 'FP16_add' (2#1) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/FP16_add.v:5]
+INFO: [Synth 8-256] done synthesizing module 'single_convo_compute' (3#1) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/single_convo_compute.v:4]
+INFO: [Synth 8-256] done synthesizing module 'Convo_SingleNode' (4#1) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/Convo_SingleNode.v:11]
+INFO: [Synth 8-638] synthesizing module 'maxpooling' [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/maxpooling.v:3]
+	Parameter width bound to: 16 - type: integer 
+	Parameter num bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'data_ff' [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/data_ff.v:2]
+	Parameter depth bound to: 4 - type: integer 
+	Parameter width bound to: 16 - type: integer 
+	Parameter s_notfull bound to: 0 - type: integer 
+	Parameter s_full bound to: 1 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/data_ff.v:21]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/data_ff.v:16]
+INFO: [Synth 8-256] done synthesizing module 'data_ff' (5#1) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/data_ff.v:2]
+INFO: [Synth 8-638] synthesizing module 'single_maxpooling' [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/single_maxpooling.v:3]
+	Parameter width bound to: 16 - type: integer 
+	Parameter num bound to: 4 - type: integer 
+	Parameter s_idle bound to: 0 - type: integer 
+	Parameter s_1 bound to: 1 - type: integer 
+	Parameter s_2 bound to: 2 - type: integer 
+	Parameter s_3 bound to: 3 - type: integer 
+	Parameter s_4 bound to: 4 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/single_maxpooling.v:88]
+INFO: [Synth 8-638] synthesizing module 'find_FP16max' [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/max_compare.v:4]
+	Parameter width bound to: 16 - type: integer 
+	Parameter num bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'find_FP16max' (6#1) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/max_compare.v:4]
+INFO: [Synth 8-256] done synthesizing module 'single_maxpooling' (7#1) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/single_maxpooling.v:3]
+INFO: [Synth 8-638] synthesizing module 'data_ff__parameterized0' [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/data_ff.v:2]
+	Parameter depth bound to: 49 - type: integer 
+	Parameter width bound to: 16 - type: integer 
+	Parameter s_notfull bound to: 0 - type: integer 
+	Parameter s_full bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'data_ff__parameterized0' (7#1) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/data_ff.v:2]
+INFO: [Synth 8-256] done synthesizing module 'maxpooling' (8#1) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/maxpooling.v:3]
+INFO: [Synth 8-256] done synthesizing module 'Convo_MaxpoolingLayer' (9#1) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/Convo_MaxpoolingLayer.v:3]
+INFO: [Synth 8-638] synthesizing module 'Fc_Relu' [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/Fc_Relu.v:8]
+	Parameter input_node bound to: 49 - type: integer 
+	Parameter output_node bound to: 49 - type: integer 
+	Parameter width bound to: 16 - type: integer 
+	Parameter product_fc bound to: 784'b0010000100011110001000010001111000100001000111100010000100011110001000010001111000100001000111100010000100011110001000010001111000100001000111100010000100011110001000010001111000100001000111100010000100011110001000010001111000100001000111100010000100011110001000010001111000100001000111100010000100011110001000010001111000100001000111100010000100011110001000010001111000100001000111100010000100011110001000010001111000100001000111100010000100011110001000010001111000100001000111100010000100011110001000010001111000100001000111100010000100011110001000010001111000100001000111100010000100011110001000010001111000100001000111100010000100011110001000010001111000100001000111100010000100011110001000010001111000100001000111100010000100011110001000010001111000100001000111100010000100011110 
+	Parameter s_idle bound to: 0 - type: integer 
+	Parameter s_switch bound to: 1 - type: integer 
+	Parameter s_run bound to: 2 - type: integer 
+	Parameter s_end bound to: 3 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/Fc_Relu.v:31]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/Fc_Relu.v:33]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/Fc_Relu.v:36]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/Fc_Relu.v:37]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/Fc_Relu.v:38]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/Fc_Relu.v:49]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/Fc_Relu.v:26]
+INFO: [Synth 8-226] default block is never used [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/Fc_Relu.v:74]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/Fc_Relu.v:125]
+INFO: [Synth 8-638] synthesizing module 'single_node_compute' [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/single_node_compute.v:5]
+	Parameter node bound to: 49 - type: integer 
+	Parameter width bound to: 16 - type: integer 
+	Parameter s_idle bound to: 0 - type: integer 
+	Parameter s_run bound to: 1 - type: integer 
+	Parameter s_end bound to: 2 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/single_node_compute.v:37]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/single_node_compute.v:38]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/single_node_compute.v:39]
+INFO: [Synth 8-256] done synthesizing module 'single_node_compute' (10#1) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/single_node_compute.v:5]
+INFO: [Synth 8-256] done synthesizing module 'Fc_Relu' (11#1) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/Fc_Relu.v:8]
+INFO: [Synth 8-638] synthesizing module 'Fc_Relu__parameterized0' [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/Fc_Relu.v:8]
+	Parameter input_node bound to: 49 - type: integer 
+	Parameter output_node bound to: 10 - type: integer 
+	Parameter width bound to: 16 - type: integer 
+	Parameter product_fc bound to: 784'b0010000100011110001000010001111000100001000111100010000100011110001000010001111000100001000111100010000100011110001000010001111000100001000111100010000100011110001000010001111000100001000111100010000100011110001000010001111000100001000111100010000100011110001000010001111000100001000111100010000100011110001000010001111000100001000111100010000100011110001000010001111000100001000111100010000100011110001000010001111000100001000111100010000100011110001000010001111000100001000111100010000100011110001000010001111000100001000111100010000100011110001000010001111000100001000111100010000100011110001000010001111000100001000111100010000100011110001000010001111000100001000111100010000100011110001000010001111000100001000111100010000100011110001000010001111000100001000111100010000100011110 
+	Parameter s_idle bound to: 0 - type: integer 
+	Parameter s_switch bound to: 1 - type: integer 
+	Parameter s_run bound to: 2 - type: integer 
+	Parameter s_end bound to: 3 - type: integer 
+INFO: [Synth 8-226] default block is never used [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/Fc_Relu.v:74]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/Fc_Relu.v:125]
+INFO: [Synth 8-256] done synthesizing module 'Fc_Relu__parameterized0' (11#1) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/Fc_Relu.v:8]
+INFO: [Synth 8-638] synthesizing module 'softmax' [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/softmax.v:5]
+	Parameter node bound to: 10 - type: integer 
+	Parameter width bound to: 16 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/softmax.v:22]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/softmax.v:23]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/softmax.v:24]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/softmax.v:25]
+INFO: [Synth 8-638] synthesizing module 'exponent_and_sum_exp' [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/exponent_and_reciprocal.v:4]
+	Parameter node bound to: 10 - type: integer 
+	Parameter width bound to: 16 - type: integer 
+	Parameter s_idle bound to: 0 - type: integer 
+	Parameter s_1 bound to: 1 - type: integer 
+	Parameter s_2 bound to: 2 - type: integer 
+	Parameter s_3 bound to: 3 - type: integer 
+	Parameter s_4 bound to: 4 - type: integer 
+	Parameter s_5 bound to: 5 - type: integer 
+	Parameter s_6 bound to: 6 - type: integer 
+	Parameter s_7 bound to: 7 - type: integer 
+	Parameter s_8 bound to: 8 - type: integer 
+	Parameter s_9 bound to: 9 - type: integer 
+	Parameter s_10 bound to: 10 - type: integer 
+	Parameter s_sum bound to: 11 - type: integer 
+	Parameter s_end bound to: 12 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/exponent_and_reciprocal.v:39]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/exponent_and_reciprocal.v:40]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/exponent_and_reciprocal.v:41]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/exponent_and_reciprocal.v:42]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/exponent_and_reciprocal.v:43]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/exponent_and_reciprocal.v:44]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/exponent_and_reciprocal.v:46]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/exponent_and_reciprocal.v:47]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/exponent_and_reciprocal.v:48]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/exponent_and_reciprocal.v:16]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/exponent_and_reciprocal.v:66]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/exponent_and_reciprocal.v:95]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/exponent_and_reciprocal.v:129]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/exponent_and_reciprocal.v:164]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/exponent_and_reciprocal.v:198]
+INFO: [Synth 8-638] synthesizing module 'exponent_compute' [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/exponent_compute.v:6]
+	Parameter width bound to: 16 - type: integer 
+	Parameter s_idle bound to: 0 - type: integer 
+	Parameter s_1 bound to: 1 - type: integer 
+	Parameter s_2 bound to: 2 - type: integer 
+	Parameter s_3 bound to: 3 - type: integer 
+	Parameter s_4 bound to: 4 - type: integer 
+	Parameter s_5 bound to: 5 - type: integer 
+	Parameter s_6 bound to: 6 - type: integer 
+	Parameter s_7 bound to: 7 - type: integer 
+	Parameter s_8 bound to: 8 - type: integer 
+	Parameter s_9 bound to: 9 - type: integer 
+	Parameter s_end bound to: 10 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/exponent_compute.v:45]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/exponent_compute.v:48]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/exponent_compute.v:50]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/exponent_compute.v:53]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/exponent_compute.v:56]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/exponent_compute.v:72]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/exponent_compute.v:134]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/exponent_compute.v:154]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/exponent_compute.v:173]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/exponent_compute.v:191]
+INFO: [Synth 8-256] done synthesizing module 'exponent_compute' (12#1) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/exponent_compute.v:6]
+INFO: [Synth 8-256] done synthesizing module 'exponent_and_sum_exp' (13#1) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/exponent_and_reciprocal.v:4]
+INFO: [Synth 8-638] synthesizing module 'softmax_func' [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/softmax_func.v:2]
+	Parameter width bound to: 16 - type: integer 
+	Parameter node bound to: 10 - type: integer 
+	Parameter s_idle bound to: 4'b0000 
+	Parameter s_reciprocal bound to: 4'b0001 
+	Parameter s_e0 bound to: 4'b0010 
+	Parameter s_e1 bound to: 4'b0011 
+	Parameter s_e2 bound to: 4'b0100 
+	Parameter s_e3 bound to: 4'b0101 
+	Parameter s_e4 bound to: 4'b0110 
+	Parameter s_e5 bound to: 4'b0111 
+	Parameter s_e6 bound to: 4'b1000 
+	Parameter s_e7 bound to: 4'b1001 
+	Parameter s_e8 bound to: 4'b1010 
+	Parameter s_e9 bound to: 4'b1011 
+	Parameter s_end bound to: 4'b1100 
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/softmax_func.v:42]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/softmax_func.v:43]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/softmax_func.v:44]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/softmax_func.v:47]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/softmax_func.v:48]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/softmax_func.v:49]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/softmax_func.v:51]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/softmax_func.v:52]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/softmax_func.v:18]
+INFO: [Synth 8-638] synthesizing module 'FP16_reciprocal' [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/FP16_reciprocal.v:5]
+	Parameter DATA_WIDTH bound to: 16 - type: integer 
+	Parameter P1 bound to: 16'b0100000100001111 
+	Parameter P2 bound to: 16'b1011111110000111 
+	Parameter s_idle bound to: 0 - type: integer 
+	Parameter s_1 bound to: 1 - type: integer 
+	Parameter s_2 bound to: 2 - type: integer 
+	Parameter s_insert1 bound to: 3 - type: integer 
+	Parameter s_insert2 bound to: 4 - type: integer 
+	Parameter s_3 bound to: 5 - type: integer 
+	Parameter s_4 bound to: 6 - type: integer 
+	Parameter s_end bound to: 7 - type: integer 
+	Parameter s_wait bound to: 8 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/FP16_reciprocal.v:30]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/FP16_reciprocal.v:31]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/FP16_reciprocal.v:32]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/FP16_reciprocal.v:39]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/FP16_reciprocal.v:40]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/FP16_reciprocal.v:41]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/FP16_reciprocal.v:73]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/FP16_reciprocal.v:151]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/FP16_reciprocal.v:191]
+INFO: [Synth 8-256] done synthesizing module 'FP16_reciprocal' (14#1) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/FP16_reciprocal.v:5]
+INFO: [Synth 8-256] done synthesizing module 'softmax_func' (15#1) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/softmax_func.v:2]
+INFO: [Synth 8-256] done synthesizing module 'softmax' (16#1) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/softmax.v:5]
+INFO: [Synth 8-256] done synthesizing module 'top_layer' (17#1) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/top_layer.v:7]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/ZYNQ_implement.v:57]
+INFO: [Synth 8-638] synthesizing module 'ila_0' [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.runs/synth_1/.Xil/Vivado-13072-Xiang-Lab/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'ila_0' (18#1) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.runs/synth_1/.Xil/Vivado-13072-Xiang-Lab/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'top_layer_inst'. This will prevent further optimization [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/ZYNQ_implement.v:41]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_0_inst'. This will prevent further optimization [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/ZYNQ_implement.v:57]
+INFO: [Synth 8-256] done synthesizing module 'ZYNQ_implement' (19#1) [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/ZYNQ_implement.v:4]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 485.492 ; gain = 154.719
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 485.492 ; gain = 154.719
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.runs/synth_1/.Xil/Vivado-13072-Xiang-Lab/dcp1/ila_0_in_context.xdc] for cell 'ila_0_inst'
+Finished Parsing XDC File [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.runs/synth_1/.Xil/Vivado-13072-Xiang-Lab/dcp1/ila_0_in_context.xdc] for cell 'ila_0_inst'
+Parsing XDC File [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/constrs_1/new/cons.xdc]
+Finished Parsing XDC File [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/constrs_1/new/cons.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/constrs_1/new/cons.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ZYNQ_implement_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ZYNQ_implement_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 852.965 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 853.070 ; gain = 522.297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 853.070 ; gain = 522.297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for ila_0_inst. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 853.070 ; gain = 522.297
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/FP16_add.v:56]
+INFO: [Synth 8-5544] ROM "reg_add_buf" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'single_maxpooling'
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'exponent_compute'
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "reg_data_in" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'exponent_and_sum_exp'
+INFO: [Synth 8-5544] ROM "exp_data_in" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "reg_exponent" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "exp_sum" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "reg_out0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "reg_out1" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "reg_out2" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "exponent" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "locked" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'softmax_func'
+INFO: [Synth 8-5544] ROM "data_out" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  s_idle |                              000 |                              000
+                     s_1 |                              001 |                              001
+                     s_2 |                              010 |                              010
+                     s_3 |                              011 |                              011
+                     s_4 |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'single_maxpooling'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  s_idle |                      00000000001 |                             0000
+                     s_1 |                      00000000010 |                             0001
+                     s_2 |                      00000000100 |                             0010
+                     s_3 |                      00000001000 |                             0011
+                     s_4 |                      00000010000 |                             0100
+                     s_5 |                      00000100000 |                             0101
+                     s_6 |                      00001000000 |                             0110
+                     s_7 |                      00010000000 |                             0111
+                     s_8 |                      00100000000 |                             1000
+                     s_9 |                      01000000000 |                             1001
+                   s_end |                      10000000000 |                             1010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'exponent_compute'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  s_idle |                    0000000000001 |                             0000
+                     s_1 |                    0000000000010 |                             0001
+                     s_2 |                    0000000000100 |                             0010
+                     s_3 |                    0000000001000 |                             0011
+                     s_4 |                    0000000010000 |                             0100
+                     s_5 |                    0000000100000 |                             0101
+                     s_6 |                    0000001000000 |                             0110
+                     s_7 |                    0000010000000 |                             0111
+                     s_8 |                    0000100000000 |                             1000
+                     s_9 |                    0001000000000 |                             1001
+                    s_10 |                    0010000000000 |                             1010
+                   s_sum |                    0100000000000 |                             1011
+                   s_end |                    1000000000000 |                             1100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'exponent_and_sum_exp'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  s_idle |                             0000 |                             0000
+            s_reciprocal |                             0001 |                             0001
+                    s_e0 |                             0010 |                             0010
+                    s_e1 |                             0011 |                             0011
+                    s_e2 |                             0100 |                             0100
+                    s_e3 |                             0101 |                             0101
+                    s_e4 |                             0110 |                             0110
+                    s_e5 |                             0111 |                             0111
+                    s_e6 |                             1000 |                             1000
+                    s_e7 |                             1001 |                             1001
+                    s_e8 |                             1010 |                             1010
+                    s_e9 |                             1011 |                             1011
+                   s_end |                             1100 |                             1100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'softmax_func'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 853.070 ; gain = 522.297
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------------+------------+----------+
+|      |RTL Partition       |Replication |Instances |
++------+--------------------+------------+----------+
+|1     |top_layer__GB0      |           1|     28282|
+|2     |top_layer__GB1      |           1|     22810|
+|3     |top_layer__GB2      |           1|     25086|
+|4     |ZYNQ_implement__GC0 |           1|       338|
++------+--------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 10    
+	   3 Input     12 Bit       Adders := 10    
+	   2 Input     11 Bit       Adders := 10    
+	   2 Input      7 Bit       Adders := 1     
+	   3 Input      6 Bit       Adders := 132   
+	   2 Input      6 Bit       Adders := 114   
+	   3 Input      5 Bit       Adders := 21    
+	   2 Input      3 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 22    
++---Registers : 
+	              784 Bit    Registers := 4     
+	              160 Bit    Registers := 4     
+	               64 Bit    Registers := 4     
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 28    
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 4     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 5     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	  11 Input    160 Bit        Muxes := 1     
+	  12 Input    160 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 75    
+	   4 Input     16 Bit        Muxes := 4     
+	   3 Input     16 Bit        Muxes := 6     
+	  11 Input     16 Bit        Muxes := 2     
+	  12 Input     16 Bit        Muxes := 2     
+	   6 Input     16 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 10    
+	   2 Input     11 Bit        Muxes := 60    
+	  15 Input     11 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 20    
+	   2 Input      7 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 46    
+	   4 Input      6 Bit        Muxes := 2     
+	   3 Input      6 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 10    
+	   2 Input      4 Bit        Muxes := 1     
+	  13 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   9 Input      3 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 2     
+	   7 Input      2 Bit        Muxes := 2     
+	   6 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 24    
+	   4 Input      1 Bit        Muxes := 4     
+	   3 Input      1 Bit        Muxes := 7     
+	   5 Input      1 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 3     
+	  13 Input      1 Bit        Muxes := 2     
+	  12 Input      1 Bit        Muxes := 2     
+	  10 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ZYNQ_implement 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module FP16_mult__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      6 Bit       Adders := 11    
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+Module FP16_add__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
+	   3 Input     12 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 11    
+	   3 Input      5 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 6     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 1     
+Module single_node_compute 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 4     
+	                6 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 3     
+	   4 Input     16 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 2     
+	   4 Input      6 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module Fc_Relu 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	              784 Bit    Registers := 2     
+	               16 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 4     
+	   3 Input     16 Bit        Muxes := 1     
+	   3 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   7 Input      2 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 2     
+Module FP16_mult__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      6 Bit       Adders := 11    
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+Module FP16_add__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
+	   3 Input     12 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 11    
+	   3 Input      5 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 6     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 1     
+Module single_node_compute__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 4     
+	                6 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 3     
+	   4 Input     16 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 2     
+	   4 Input      6 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module Fc_Relu__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	              784 Bit    Registers := 1     
+	              160 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 4     
+	   3 Input     16 Bit        Muxes := 1     
+	   3 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   7 Input      2 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 2     
+Module FP16_add__3 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
+	   3 Input     12 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 11    
+	   3 Input      5 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 6     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 1     
+Module FP16_add__4 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
+	   3 Input     12 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 11    
+	   3 Input      5 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 6     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 1     
+Module FP16_add__5 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
+	   3 Input     12 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 11    
+	   3 Input      5 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 6     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 1     
+Module FP16_mult__3 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      6 Bit       Adders := 11    
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+Module FP16_mult__4 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      6 Bit       Adders := 11    
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+Module FP16_mult__5 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      6 Bit       Adders := 11    
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+Module FP16_mult__6 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      6 Bit       Adders := 11    
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+Module single_convo_compute 
+Detailed RTL Component Info : 
++---Registers : 
+	               64 Bit    Registers := 1     
+	               32 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   6 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 1     
+Module Convo_SingleNode 
+Detailed RTL Component Info : 
++---Registers : 
+	               64 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 4     
+Module data_ff 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               64 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module find_FP16max 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 3     
+	   2 Input     10 Bit        Muxes := 10    
+	   2 Input      5 Bit        Muxes := 10    
+Module single_maxpooling 
+Detailed RTL Component Info : 
++---Registers : 
+	               64 Bit    Registers := 1     
++---Muxes : 
+	   9 Input      3 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module data_ff__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	              784 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module FP16_add 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
+	   3 Input     12 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 11    
+	   3 Input      5 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 6     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 1     
+Module FP16_mult__11 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      6 Bit       Adders := 11    
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+Module FP16_mult 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      6 Bit       Adders := 11    
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+Module FP16_add__9 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
+	   3 Input     12 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 11    
+	   3 Input      5 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 6     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 1     
+Module exponent_compute 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 9     
+	  11 Input     16 Bit        Muxes := 1     
+	   3 Input     16 Bit        Muxes := 4     
+	  15 Input     11 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+Module exponent_and_sum_exp 
+Detailed RTL Component Info : 
++---Registers : 
+	              160 Bit    Registers := 1     
+	               16 Bit    Registers := 3     
++---Muxes : 
+	  11 Input    160 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 22    
+	  11 Input     16 Bit        Muxes := 1     
+	  12 Input     16 Bit        Muxes := 1     
+	  13 Input      1 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 2     
+	  12 Input      1 Bit        Muxes := 1     
+Module FP16_mult__10 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      6 Bit       Adders := 11    
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+Module FP16_mult__7 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      6 Bit       Adders := 11    
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+Module FP16_add__6 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
+	   3 Input     12 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 11    
+	   3 Input      5 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 6     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 1     
+Module FP16_mult__8 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      6 Bit       Adders := 11    
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+Module FP16_add__7 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
+	   3 Input     12 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 11    
+	   3 Input      5 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 6     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 1     
+Module FP16_mult__9 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      6 Bit       Adders := 11    
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+Module FP16_add__8 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
+	   3 Input     12 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 11    
+	   3 Input      5 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 6     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 1     
+Module FP16_reciprocal 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      5 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 6     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   6 Input     16 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	  10 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+	   6 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 2     
+Module softmax_func 
+Detailed RTL Component Info : 
++---Registers : 
+	              160 Bit    Registers := 2     
+	               16 Bit    Registers := 3     
++---Muxes : 
+	  12 Input    160 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	  12 Input     16 Bit        Muxes := 1     
+	  13 Input      4 Bit        Muxes := 1     
+	  13 Input      1 Bit        Muxes := 1     
+	  12 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+DSP Report: Generating DSP exponent1, operation Mode is: A*B.
+DSP Report: operator exponent1 is absorbed into DSP exponent1.
+DSP Report: Generating DSP exponent1, operation Mode is: A*B.
+DSP Report: operator exponent1 is absorbed into DSP exponent1.
+DSP Report: Generating DSP exponent1, operation Mode is: A*B.
+DSP Report: operator exponent1 is absorbed into DSP exponent1.
+DSP Report: Generating DSP exponent1, operation Mode is: A*B.
+DSP Report: operator exponent1 is absorbed into DSP exponent1.
+DSP Report: Generating DSP exponent1, operation Mode is: A*B.
+DSP Report: operator exponent1 is absorbed into DSP exponent1.
+DSP Report: Generating DSP exponent1, operation Mode is: A*B.
+DSP Report: operator exponent1 is absorbed into DSP exponent1.
+DSP Report: Generating DSP exponent1, operation Mode is: A*B.
+DSP Report: operator exponent1 is absorbed into DSP exponent1.
+DSP Report: Generating DSP exponent1, operation Mode is: A*B.
+DSP Report: operator exponent1 is absorbed into DSP exponent1.
+DSP Report: Generating DSP exponent1, operation Mode is: A*B.
+DSP Report: operator exponent1 is absorbed into DSP exponent1.
+DSP Report: Generating DSP exponent1, operation Mode is: A*B.
+DSP Report: operator exponent1 is absorbed into DSP exponent1.
+DSP Report: Generating DSP exponent1, operation Mode is: A*B.
+DSP Report: operator exponent1 is absorbed into DSP exponent1.
+DSP Report: Generating DSP FP16_mult_inst/exponent1, operation Mode is: A*B.
+DSP Report: operator FP16_mult_inst/exponent1 is absorbed into DSP FP16_mult_inst/exponent1.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 982.270 ; gain = 651.496
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|FP16_mult   | A*B         | 11     | 11     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FP16_mult   | A*B         | 11     | 11     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FP16_mult   | A*B         | 11     | 11     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FP16_mult   | A*B         | 11     | 11     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FP16_mult   | A*B         | 11     | 11     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FP16_mult   | A*B         | 11     | 11     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FP16_mult   | A*B         | 11     | 11     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FP16_mult   | A*B         | 11     | 11     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FP16_mult   | A*B         | 11     | 11     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FP16_mult   | A*B         | 11     | 11     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FP16_mult   | A*B         | 11     | 11     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FP16_mult   | A*B         | 11     | 11     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------------+------------+----------+
+|      |RTL Partition       |Replication |Instances |
++------+--------------------+------------+----------+
+|1     |top_layer__GB0      |           1|     14569|
+|2     |top_layer__GB1      |           1|      9960|
+|3     |top_layer__GB2      |           1|     12055|
+|4     |ZYNQ_implement__GC0 |           1|        53|
++------+--------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 1100.035 ; gain = 769.262
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:00:48 . Memory (MB): peak = 1163.953 ; gain = 833.180
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------------+------------+----------+
+|      |RTL Partition       |Replication |Instances |
++------+--------------------+------------+----------+
+|1     |top_layer__GB0      |           1|     14569|
+|2     |top_layer__GB1      |           1|      9960|
+|3     |top_layer__GB2      |           1|     12039|
+|4     |ZYNQ_implement__GC0 |           1|        53|
++------+--------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/Convo_SingleNode.v:82]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/Convo_SingleNode.v:82]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/Convo_SingleNode.v:82]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/Convo_SingleNode.v:82]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/FP16_reciprocal.v:140]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/FP16_reciprocal.v:140]
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:51 ; elapsed = 00:00:52 . Memory (MB): peak = 1277.766 ; gain = 946.992
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:52 ; elapsed = 00:00:54 . Memory (MB): peak = 1277.766 ; gain = 946.992
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:52 ; elapsed = 00:00:54 . Memory (MB): peak = 1277.766 ; gain = 946.992
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 1277.766 ; gain = 946.992
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 1277.766 ; gain = 946.992
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:54 ; elapsed = 00:00:55 . Memory (MB): peak = 1277.766 ; gain = 946.992
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:54 ; elapsed = 00:00:55 . Memory (MB): peak = 1277.766 ; gain = 946.992
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |ila_0         |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |ila_0   |     1|
+|2     |BUFG    |     1|
+|3     |CARRY4  |    91|
+|4     |DSP48E1 |    12|
+|5     |LUT1    |    67|
+|6     |LUT2    |   456|
+|7     |LUT3    |   433|
+|8     |LUT4    |  1580|
+|9     |LUT5    |  1516|
+|10    |LUT6    |  4198|
+|11    |MUXF7   |   311|
+|12    |MUXF8   |    48|
+|13    |FDCE    |  4218|
+|14    |FDPE    |     8|
+|15    |FDRE    |   384|
+|16    |IBUF    |     2|
+|17    |OBUF    |     1|
++------+--------+------+
+
+Report Instance Areas: 
++------+----------------------------------+------------------------+------+
+|      |Instance                          |Module                  |Cells |
++------+----------------------------------+------------------------+------+
+|1     |top                               |                        | 13326|
+|2     |  top_layer_inst                  |top_layer               | 13279|
+|3     |    Convo_MaxpoolingLayer_inst    |Convo_MaxpoolingLayer   |  3672|
+|4     |      Convo_SingleNode_inst       |Convo_SingleNode        |  1684|
+|5     |        single_convo_compute_inst |single_convo_compute    |  1618|
+|6     |          \genblk1[0].mult_inst   |FP16_mult_8             |    99|
+|7     |          \genblk1[1].mult_inst   |FP16_mult_9             |    99|
+|8     |          \genblk1[2].mult_inst   |FP16_mult_10            |    99|
+|9     |          \genblk1[3].mult_inst   |FP16_mult_11            |    99|
+|10    |      maxpooling_inst             |maxpooling              |  1988|
+|11    |        data_ff_49FPdata          |data_ff__parameterized0 |  1666|
+|12    |        data_ff_4FPdata           |data_ff                 |   138|
+|13    |        single_maxpooling_inst    |single_maxpooling       |   184|
+|14    |          find_FP16max_inst       |find_FP16max            |   100|
+|15    |    Fc_Relu_node10                |Fc_Relu__parameterized0 |  2173|
+|16    |      single_node_compute_inst    |single_node_compute_6   |   887|
+|17    |        fc_mult_inst              |FP16_mult_7             |    98|
+|18    |    Fc_Relu_node49                |Fc_Relu                 |  3802|
+|19    |      single_node_compute_inst    |single_node_compute     |   887|
+|20    |        fc_mult_inst              |FP16_mult_5             |    98|
+|21    |    softmax_inst                  |softmax                 |  3632|
+|22    |      exponent_and_sum_exp_inst   |exponent_and_sum_exp    |  1637|
+|23    |        FP16_add_inst             |FP16_add                |   119|
+|24    |        exponent_compute_inst     |exponent_compute        |   813|
+|25    |          FP16_mult_L0            |FP16_mult_3             |   115|
+|26    |          FP16_mult_L1            |FP16_mult_4             |   115|
+|27    |      softmax_func_inst           |softmax_func            |  1995|
+|28    |        FP16_mult_inst            |FP16_mult               |    99|
+|29    |        FP16_reciprocal_inst      |FP16_reciprocal         |  1226|
+|30    |          F_mult0                 |FP16_mult_0             |   332|
+|31    |          F_mult1                 |FP16_mult_1             |    99|
+|32    |          F_mult2                 |FP16_mult_2             |    99|
++------+----------------------------------+------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:54 ; elapsed = 00:00:55 . Memory (MB): peak = 1277.766 ; gain = 946.992
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:45 ; elapsed = 00:00:49 . Memory (MB): peak = 1277.766 ; gain = 579.414
+Synthesis Optimization Complete : Time (s): cpu = 00:00:54 ; elapsed = 00:00:55 . Memory (MB): peak = 1277.766 ; gain = 946.992
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 464 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+166 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:57 ; elapsed = 00:00:59 . Memory (MB): peak = 1277.766 ; gain = 948.691
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.collectionResultDisplayLimit
+INFO: [Common 17-1381] The checkpoint 'D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.runs/synth_1/ZYNQ_implement.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ZYNQ_implement_utilization_synth.rpt -pb ZYNQ_implement_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.041 . Memory (MB): peak = 1277.766 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Apr  8 22:49:20 2023...

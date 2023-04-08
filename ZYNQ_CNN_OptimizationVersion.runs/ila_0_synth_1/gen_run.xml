@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="ila_0_synth_1" LaunchPart="xc7z010clg400-1" LaunchTime="1680941058">
+  <File Type="PA-TCL" Name="ila_0.tcl"/>
+  <File Type="REPORTS-TCL" Name="ila_0_reports.tcl"/>
+  <File Type="RDS-RDS" Name="ila_0.vds"/>
+  <File Type="RDS-UTIL" Name="ila_0_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="ila_0_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="ila_0.dcp"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ila_0">
+    <File Path="$PSRCDIR/sources_1/ip/ila_0/ila_0.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../CNN_Implement_ZYNQ7010/CNN_Implement_ZYNQ7010.srcs/sources_1/ip/ila_0/ila_0.xci"/>
+        <Attr Name="ImportTime" Val="1680708404"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="ila_0"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ila_0">
+    <File Path="$PSRCDIR/sources_1/ip/ila_0/ila_0.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../CNN_Implement_ZYNQ7010/CNN_Implement_ZYNQ7010.srcs/sources_1/ip/ila_0/ila_0.xci"/>
+        <Attr Name="ImportTime" Val="1680708404"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="ila_0"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

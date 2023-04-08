@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"ZYNQ_tb_func_impl.v" \
+"../../../../../ZYNQ_CNN_OptimizationVersion.srcs/sim_1/new/ZYNQ_tb.v" \
+
+# Do not sort compile order
+nosort

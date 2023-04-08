@@ -1,0 +1,310 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Apr  8 22:51:03 2023
+| Host         : Xiang-Lab running 64-bit major release  (build 9200)
+| Command      : report_drc -file ZYNQ_implement_drc_routed.rpt -pb ZYNQ_implement_drc_routed.pb -rpx ZYNQ_implement_drc_routed.rpx
+| Design       : ZYNQ_implement
+| Device       : xc7z010clg400-1
+| Speed File   : -1
+| Design State : Routed
+------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 54
++-----------+----------+------------------------+------------+
+| Rule      | Severity | Description            | Violations |
++-----------+----------+------------------------+------------+
+| DPIP-1    | Warning  | Input pipelining       | 16         |
+| DPOP-1    | Warning  | PREG Output pipelining | 18         |
+| DPOP-2    | Warning  | MREG Output pipelining | 18         |
+| RTSTAT-10 | Warning  | No routable loads      | 1          |
+| ZPS7-1    | Warning  | PS7 block required     | 1          |
++-----------+----------+------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+DPIP-1#1 Warning
+Input pipelining  
+DSP top_layer_inst/Convo_MaxpoolingLayer_inst/Convo_SingleNode_inst/single_convo_compute_inst/genblk1[0].mult_inst/exponent1 input top_layer_inst/Convo_MaxpoolingLayer_inst/Convo_SingleNode_inst/single_convo_compute_inst/genblk1[0].mult_inst/exponent1/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#2 Warning
+Input pipelining  
+DSP top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1 input top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#3 Warning
+Input pipelining  
+DSP top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1 input top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#4 Warning
+Input pipelining  
+DSP top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1 input top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#5 Warning
+Input pipelining  
+DSP top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1 input top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#6 Warning
+Input pipelining  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1 input top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#7 Warning
+Input pipelining  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1 input top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#8 Warning
+Input pipelining  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1 input top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#9 Warning
+Input pipelining  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1 input top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#10 Warning
+Input pipelining  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_mult_inst/exponent1 input top_layer_inst/softmax_inst/softmax_func_inst/FP16_mult_inst/exponent1/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#11 Warning
+Input pipelining  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_mult_inst/exponent1 input top_layer_inst/softmax_inst/softmax_func_inst/FP16_mult_inst/exponent1/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#12 Warning
+Input pipelining  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult0/exponent1 input top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult0/exponent1/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#13 Warning
+Input pipelining  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1 input top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#14 Warning
+Input pipelining  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1 input top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#15 Warning
+Input pipelining  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1 input top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#16 Warning
+Input pipelining  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1 input top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPOP-1#1 Warning
+PREG Output pipelining  
+DSP top_layer_inst/Convo_MaxpoolingLayer_inst/Convo_SingleNode_inst/single_convo_compute_inst/genblk1[0].mult_inst/exponent1 output top_layer_inst/Convo_MaxpoolingLayer_inst/Convo_SingleNode_inst/single_convo_compute_inst/genblk1[0].mult_inst/exponent1/PATTERNDETECT is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#2 Warning
+PREG Output pipelining  
+DSP top_layer_inst/Convo_MaxpoolingLayer_inst/Convo_SingleNode_inst/single_convo_compute_inst/genblk1[0].mult_inst/exponent1 output top_layer_inst/Convo_MaxpoolingLayer_inst/Convo_SingleNode_inst/single_convo_compute_inst/genblk1[0].mult_inst/exponent1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#3 Warning
+PREG Output pipelining  
+DSP top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1 output top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1/PATTERNDETECT is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#4 Warning
+PREG Output pipelining  
+DSP top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1 output top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#5 Warning
+PREG Output pipelining  
+DSP top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1 output top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1/PATTERNDETECT is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#6 Warning
+PREG Output pipelining  
+DSP top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1 output top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#7 Warning
+PREG Output pipelining  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1 output top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1/PATTERNDETECT is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#8 Warning
+PREG Output pipelining  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1 output top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#9 Warning
+PREG Output pipelining  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1 output top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1/PATTERNDETECT is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#10 Warning
+PREG Output pipelining  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1 output top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#11 Warning
+PREG Output pipelining  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_mult_inst/exponent1 output top_layer_inst/softmax_inst/softmax_func_inst/FP16_mult_inst/exponent1/PATTERNDETECT is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#12 Warning
+PREG Output pipelining  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_mult_inst/exponent1 output top_layer_inst/softmax_inst/softmax_func_inst/FP16_mult_inst/exponent1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#13 Warning
+PREG Output pipelining  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult0/exponent1 output top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult0/exponent1/PATTERNDETECT is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#14 Warning
+PREG Output pipelining  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult0/exponent1 output top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult0/exponent1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#15 Warning
+PREG Output pipelining  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1 output top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1/PATTERNDETECT is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#16 Warning
+PREG Output pipelining  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1 output top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#17 Warning
+PREG Output pipelining  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1 output top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1/PATTERNDETECT is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#18 Warning
+PREG Output pipelining  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1 output top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-2#1 Warning
+MREG Output pipelining  
+DSP top_layer_inst/Convo_MaxpoolingLayer_inst/Convo_SingleNode_inst/single_convo_compute_inst/genblk1[0].mult_inst/exponent1 multiplier stage top_layer_inst/Convo_MaxpoolingLayer_inst/Convo_SingleNode_inst/single_convo_compute_inst/genblk1[0].mult_inst/exponent1/PATTERNDETECT is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#2 Warning
+MREG Output pipelining  
+DSP top_layer_inst/Convo_MaxpoolingLayer_inst/Convo_SingleNode_inst/single_convo_compute_inst/genblk1[0].mult_inst/exponent1 multiplier stage top_layer_inst/Convo_MaxpoolingLayer_inst/Convo_SingleNode_inst/single_convo_compute_inst/genblk1[0].mult_inst/exponent1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#3 Warning
+MREG Output pipelining  
+DSP top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1 multiplier stage top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1/PATTERNDETECT is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#4 Warning
+MREG Output pipelining  
+DSP top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1 multiplier stage top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#5 Warning
+MREG Output pipelining  
+DSP top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1 multiplier stage top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1/PATTERNDETECT is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#6 Warning
+MREG Output pipelining  
+DSP top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1 multiplier stage top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#7 Warning
+MREG Output pipelining  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1 multiplier stage top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1/PATTERNDETECT is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#8 Warning
+MREG Output pipelining  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1 multiplier stage top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#9 Warning
+MREG Output pipelining  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1 multiplier stage top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1/PATTERNDETECT is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#10 Warning
+MREG Output pipelining  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1 multiplier stage top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#11 Warning
+MREG Output pipelining  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_mult_inst/exponent1 multiplier stage top_layer_inst/softmax_inst/softmax_func_inst/FP16_mult_inst/exponent1/PATTERNDETECT is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#12 Warning
+MREG Output pipelining  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_mult_inst/exponent1 multiplier stage top_layer_inst/softmax_inst/softmax_func_inst/FP16_mult_inst/exponent1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#13 Warning
+MREG Output pipelining  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult0/exponent1 multiplier stage top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult0/exponent1/PATTERNDETECT is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#14 Warning
+MREG Output pipelining  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult0/exponent1 multiplier stage top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult0/exponent1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#15 Warning
+MREG Output pipelining  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1 multiplier stage top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1/PATTERNDETECT is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#16 Warning
+MREG Output pipelining  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1 multiplier stage top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#17 Warning
+MREG Output pipelining  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1 multiplier stage top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1/PATTERNDETECT is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#18 Warning
+MREG Output pipelining  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1 multiplier stage top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+RTSTAT-10#1 Warning
+No routable loads  
+21 net(s) have no routable loads. The problem bus(es) and/or net(s) are dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/ctl_reg[2:0], dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/ctl_reg_en_2[1], dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD1/ctl_reg_en_2[1], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_capture[0], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_drck[0], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_runtest[0], dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/rd_rst_reg[0], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/s_bscan_tms, ila_0_inst/inst/ila_core_inst/u_ila_regs/U_XSDB_SLAVE/s_daddr_o[13], ila_0_inst/inst/ila_core_inst/u_ila_regs/U_XSDB_SLAVE/s_daddr_o[14], ila_0_inst/inst/ila_core_inst/u_ila_regs/U_XSDB_SLAVE/s_daddr_o[15], ila_0_inst/inst/ila_core_inst/u_ila_regs/U_XSDB_SLAVE/s_daddr_o[16] (the first 15 of 19 listed).
+Related violations: <none>
+
+ZPS7-1#1 Warning
+PS7 block required  
+The PS7 cell must be used in this Zynq design in order to enable correct default configuration.
+Related violations: <none>
+
+

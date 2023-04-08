@@ -1,0 +1,32 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.sim/sim_1/impl/func/xsim/ZYNQ_tb_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Convo_MaxpoolingLayer
+INFO: [VRFC 10-311] analyzing module Convo_SingleNode
+INFO: [VRFC 10-311] analyzing module FP16_add
+INFO: [VRFC 10-311] analyzing module FP16_mult_0
+INFO: [VRFC 10-311] analyzing module FP16_mult_1
+INFO: [VRFC 10-311] analyzing module FP16_mult_2
+INFO: [VRFC 10-311] analyzing module FP16_mult_3
+INFO: [VRFC 10-311] analyzing module FP16_mult_4
+INFO: [VRFC 10-311] analyzing module FP16_mult_5
+INFO: [VRFC 10-311] analyzing module FP16_mult_7
+INFO: [VRFC 10-311] analyzing module FP16_mult_8
+INFO: [VRFC 10-311] analyzing module FP16_reciprocal
+INFO: [VRFC 10-311] analyzing module Fc_Relu
+INFO: [VRFC 10-311] analyzing module Fc_Relu__parameterized0
+INFO: [VRFC 10-311] analyzing module ZYNQ_implement
+INFO: [VRFC 10-311] analyzing module data_ff
+INFO: [VRFC 10-311] analyzing module data_ff__parameterized0
+INFO: [VRFC 10-311] analyzing module exponent_and_sum_exp
+INFO: [VRFC 10-311] analyzing module exponent_compute
+INFO: [VRFC 10-311] analyzing module find_FP16max
+INFO: [VRFC 10-311] analyzing module maxpooling
+INFO: [VRFC 10-311] analyzing module single_convo_compute
+INFO: [VRFC 10-311] analyzing module single_maxpooling
+INFO: [VRFC 10-311] analyzing module single_node_compute
+INFO: [VRFC 10-311] analyzing module single_node_compute_6
+INFO: [VRFC 10-311] analyzing module softmax
+INFO: [VRFC 10-311] analyzing module softmax_func
+INFO: [VRFC 10-311] analyzing module top_layer
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sim_1/new/ZYNQ_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ZYNQ_tb

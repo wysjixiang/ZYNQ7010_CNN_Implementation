@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/FP16_add.v" \
+"../../../../ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/FP16_mult.v" \
+"../../../../ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/FP16_reciprocal.v" \
+"../../../../ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/exponent_and_reciprocal.v" \
+"../../../../ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/exponent_compute.v" \
+"../../../../ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/softmax.v" \
+"../../../../ZYNQ_CNN_OptimizationVersion.srcs/sources_1/new/softmax_func.v" \
+"../../../../ZYNQ_CNN_OptimizationVersion.srcs/sim_1/new/softmax_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

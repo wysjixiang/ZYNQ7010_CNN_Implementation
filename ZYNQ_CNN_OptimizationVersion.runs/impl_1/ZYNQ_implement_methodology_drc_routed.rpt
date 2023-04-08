@@ -1,0 +1,978 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat Apr  8 22:51:06 2023
+| Host         : Xiang-Lab running 64-bit major release  (build 9200)
+| Command      : report_methodology -file ZYNQ_implement_methodology_drc_routed.rpt -pb ZYNQ_implement_methodology_drc_routed.pb -rpx ZYNQ_implement_methodology_drc_routed.rpx
+| Design       : ZYNQ_implement
+| Device       : xc7z010clg400-1
+| Speed File   : -1
+| Design State : Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 183
++-----------+----------+-------------------------------------------------+------------+
+| Rule      | Severity | Description                                     | Violations |
++-----------+----------+-------------------------------------------------+------------+
+| DPIR-1    | Warning  | Asynchronous driver check                       | 140        |
+| PDRC-190  | Warning  | Suboptimally placed synchronized register chain | 16         |
+| SYNTH-13  | Warning  | combinational multiplier                        | 1          |
+| TIMING-18 | Warning  | Missing input or output delay                   | 2          |
+| XDCB-5    | Warning  | Runtime inefficient way to find pin objects     | 24         |
++-----------+----------+-------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+DPIR-1#1 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Convo_MaxpoolingLayer_inst/Convo_SingleNode_inst/single_convo_compute_inst/genblk1[0].mult_inst/exponent1 input pin top_layer_inst/Convo_MaxpoolingLayer_inst/Convo_SingleNode_inst/single_convo_compute_inst/genblk1[0].mult_inst/exponent1/A[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#2 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Convo_MaxpoolingLayer_inst/Convo_SingleNode_inst/single_convo_compute_inst/genblk1[0].mult_inst/exponent1 input pin top_layer_inst/Convo_MaxpoolingLayer_inst/Convo_SingleNode_inst/single_convo_compute_inst/genblk1[0].mult_inst/exponent1/A[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#3 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Convo_MaxpoolingLayer_inst/Convo_SingleNode_inst/single_convo_compute_inst/genblk1[0].mult_inst/exponent1 input pin top_layer_inst/Convo_MaxpoolingLayer_inst/Convo_SingleNode_inst/single_convo_compute_inst/genblk1[0].mult_inst/exponent1/A[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#4 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Convo_MaxpoolingLayer_inst/Convo_SingleNode_inst/single_convo_compute_inst/genblk1[0].mult_inst/exponent1 input pin top_layer_inst/Convo_MaxpoolingLayer_inst/Convo_SingleNode_inst/single_convo_compute_inst/genblk1[0].mult_inst/exponent1/A[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#5 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Convo_MaxpoolingLayer_inst/Convo_SingleNode_inst/single_convo_compute_inst/genblk1[0].mult_inst/exponent1 input pin top_layer_inst/Convo_MaxpoolingLayer_inst/Convo_SingleNode_inst/single_convo_compute_inst/genblk1[0].mult_inst/exponent1/A[4] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#6 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Convo_MaxpoolingLayer_inst/Convo_SingleNode_inst/single_convo_compute_inst/genblk1[0].mult_inst/exponent1 input pin top_layer_inst/Convo_MaxpoolingLayer_inst/Convo_SingleNode_inst/single_convo_compute_inst/genblk1[0].mult_inst/exponent1/A[5] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#7 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Convo_MaxpoolingLayer_inst/Convo_SingleNode_inst/single_convo_compute_inst/genblk1[0].mult_inst/exponent1 input pin top_layer_inst/Convo_MaxpoolingLayer_inst/Convo_SingleNode_inst/single_convo_compute_inst/genblk1[0].mult_inst/exponent1/A[6] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#8 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Convo_MaxpoolingLayer_inst/Convo_SingleNode_inst/single_convo_compute_inst/genblk1[0].mult_inst/exponent1 input pin top_layer_inst/Convo_MaxpoolingLayer_inst/Convo_SingleNode_inst/single_convo_compute_inst/genblk1[0].mult_inst/exponent1/A[7] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#9 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Convo_MaxpoolingLayer_inst/Convo_SingleNode_inst/single_convo_compute_inst/genblk1[0].mult_inst/exponent1 input pin top_layer_inst/Convo_MaxpoolingLayer_inst/Convo_SingleNode_inst/single_convo_compute_inst/genblk1[0].mult_inst/exponent1/A[8] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#10 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Convo_MaxpoolingLayer_inst/Convo_SingleNode_inst/single_convo_compute_inst/genblk1[0].mult_inst/exponent1 input pin top_layer_inst/Convo_MaxpoolingLayer_inst/Convo_SingleNode_inst/single_convo_compute_inst/genblk1[0].mult_inst/exponent1/A[9] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#11 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1 input pin top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1/A[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#12 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1 input pin top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1/A[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#13 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1 input pin top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1/A[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#14 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1 input pin top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1/A[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#15 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1 input pin top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1/A[4] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#16 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1 input pin top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1/A[5] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#17 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1 input pin top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1/A[6] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#18 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1 input pin top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1/A[7] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#19 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1 input pin top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1/A[8] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#20 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1 input pin top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1/A[9] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#21 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1 input pin top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1/B[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#22 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1 input pin top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1/B[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#23 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1 input pin top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1/B[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#24 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1 input pin top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1/B[4] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#25 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1 input pin top_layer_inst/Fc_Relu_node10/single_node_compute_inst/fc_mult_inst/exponent1/B[8] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#26 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1 input pin top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1/A[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#27 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1 input pin top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1/A[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#28 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1 input pin top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1/A[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#29 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1 input pin top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1/A[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#30 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1 input pin top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1/A[4] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#31 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1 input pin top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1/A[5] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#32 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1 input pin top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1/A[6] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#33 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1 input pin top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1/A[7] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#34 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1 input pin top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1/A[8] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#35 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1 input pin top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1/A[9] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#36 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1 input pin top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1/B[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#37 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1 input pin top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1/B[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#38 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1 input pin top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1/B[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#39 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1 input pin top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1/B[4] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#40 Warning
+Asynchronous driver check  
+DSP top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1 input pin top_layer_inst/Fc_Relu_node49/single_node_compute_inst/fc_mult_inst/exponent1/B[8] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#41 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1/A[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#42 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1/A[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#43 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1/A[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#44 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1/A[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#45 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1/A[4] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#46 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1/A[5] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#47 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1/A[6] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#48 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1/A[7] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#49 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1/A[8] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#50 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1/A[9] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#51 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1/B[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#52 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1/B[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#53 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1/B[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#54 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1/B[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#55 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1/B[4] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#56 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1/B[5] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#57 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1/B[6] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#58 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1/B[7] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#59 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1/B[8] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#60 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L0/exponent1/B[9] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#61 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1/A[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#62 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1/A[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#63 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1/A[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#64 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1/A[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#65 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1/A[4] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#66 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1/A[5] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#67 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1/A[6] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#68 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1/A[7] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#69 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1/A[8] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#70 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1/A[9] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#71 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1/B[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#72 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1/B[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#73 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1/B[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#74 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1/B[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#75 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1/B[4] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#76 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1/B[5] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#77 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1/B[6] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#78 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1/B[7] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#79 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1/B[8] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#80 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1 input pin top_layer_inst/softmax_inst/exponent_and_sum_exp_inst/exponent_compute_inst/FP16_mult_L1/exponent1/B[9] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#81 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_mult_inst/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_mult_inst/exponent1/A[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#82 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_mult_inst/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_mult_inst/exponent1/A[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#83 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_mult_inst/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_mult_inst/exponent1/A[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#84 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_mult_inst/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_mult_inst/exponent1/A[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#85 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_mult_inst/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_mult_inst/exponent1/A[4] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#86 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_mult_inst/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_mult_inst/exponent1/A[5] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#87 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_mult_inst/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_mult_inst/exponent1/A[6] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#88 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_mult_inst/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_mult_inst/exponent1/A[7] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#89 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_mult_inst/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_mult_inst/exponent1/A[8] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#90 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_mult_inst/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_mult_inst/exponent1/A[9] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#91 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult0/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult0/exponent1/B[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#92 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult0/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult0/exponent1/B[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#93 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult0/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult0/exponent1/B[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#94 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult0/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult0/exponent1/B[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#95 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult0/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult0/exponent1/B[4] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#96 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult0/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult0/exponent1/B[5] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#97 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult0/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult0/exponent1/B[6] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#98 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult0/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult0/exponent1/B[7] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#99 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult0/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult0/exponent1/B[8] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#100 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult0/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult0/exponent1/B[9] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#101 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1/A[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#102 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1/A[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#103 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1/A[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#104 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1/A[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#105 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1/A[4] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#106 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1/A[5] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#107 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1/A[6] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#108 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1/A[7] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#109 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1/A[8] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#110 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1/A[9] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#111 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1/B[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#112 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1/B[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#113 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1/B[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#114 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1/B[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#115 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1/B[4] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#116 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1/B[5] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#117 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1/B[6] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#118 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1/B[7] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#119 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1/B[8] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#120 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult1/exponent1/B[9] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#121 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1/A[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#122 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1/A[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#123 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1/A[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#124 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1/A[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#125 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1/A[4] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#126 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1/A[5] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#127 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1/A[6] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#128 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1/A[7] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#129 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1/A[8] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#130 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1/A[9] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#131 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1/B[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#132 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1/B[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#133 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1/B[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#134 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1/B[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#135 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1/B[4] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#136 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1/B[5] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#137 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1/B[6] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#138 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1/B[7] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#139 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1/B[8] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#140 Warning
+Asynchronous driver check  
+DSP top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1 input pin top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult2/exponent1/B[9] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+PDRC-190#1 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD2/stat_reg_reg[0] in site SLICE_X6Y17 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD2/stat_reg_1_reg[0] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#2 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD2/stat_reg_reg[1] in site SLICE_X8Y15 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD2/stat_reg_1_reg[1] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#3 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD2/stat_reg_reg[2] in site SLICE_X8Y17 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD2/stat_reg_1_reg[2] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#4 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD2/stat_reg_reg[3] in site SLICE_X9Y16 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD2/stat_reg_1_reg[3] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#5 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD3/stat_reg_reg[0] in site SLICE_X5Y16 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD3/stat_reg_1_reg[0] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#6 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD3/stat_reg_reg[1] in site SLICE_X6Y15 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD3/stat_reg_1_reg[1] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#7 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD3/stat_reg_reg[2] in site SLICE_X7Y16 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD3/stat_reg_1_reg[2] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#8 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD4/shift_reg_in_reg[12] in site SLICE_X3Y15 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD4/shift_reg_in_reg[11] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#9 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD4/shift_reg_in_reg[20] in site SLICE_X3Y14 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD4/shift_reg_in_reg[19] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#10 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD4/shift_reg_in_reg[4] in site SLICE_X3Y16 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD4/shift_reg_in_reg[3] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#11 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD5/shift_reg_in_reg[10] in site SLICE_X14Y16 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD5/shift_reg_in_reg[9] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#12 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD5/shift_reg_in_reg[2] in site SLICE_X14Y17 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD5/shift_reg_in_reg[1] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#13 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/shift_reg_in_reg[0] in site SLICE_X1Y14 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_STAT/stat_reg_reg[0] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#14 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_STAT/stat_reg_reg[0] in site SLICE_X1Y15 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_STAT/stat_reg_1_reg[0] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#15 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_STAT/stat_reg_reg[1] in site SLICE_X0Y16 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_STAT/stat_reg_1_reg[1] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#16 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_STAT/stat_reg_reg[2] in site SLICE_X0Y14 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_STAT/stat_reg_1_reg[2] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+SYNTH-13#1 Warning
+combinational multiplier  
+Detected combinational multiplier in DSP instance top_layer_inst/softmax_inst/softmax_func_inst/FP16_reciprocal_inst/F_mult0/exponent1.
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on reset_n relative to clock(s) clk
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An output delay is missing on done relative to clock(s) clk
+Related violations: <none>
+
+XDCB-5#1 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/U_CDONE/I_YESLUT6.U_SRL32_*/CLK*" }]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '50' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: d:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc (Line: 80)
+Related violations: <none>
+
+XDCB-5#2 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/U_NS0/I_YESLUT6.U_SRL32_*/CLK*" }]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '51' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: d:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc (Line: 81)
+Related violations: <none>
+
+XDCB-5#3 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/U_NS1/I_YESLUT6.U_SRL32_*/CLK*" }]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '52' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: d:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc (Line: 82)
+Related violations: <none>
+
+XDCB-5#4 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/U_CMPRESET/I_YESLUT6.U_SRL32_*/CLK*" }]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '39' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: d:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc (Line: 63)
+Related violations: <none>
+
+XDCB-5#5 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/U_CMPRESET/I_YESLUT6.U_SRL32_*/CLK*" }]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '44' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: d:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc (Line: 74)
+Related violations: <none>
+
+XDCB-5#6 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/U_CMPRESET/I_YESLUT6.U_SRL32_*/CLK*" }]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '45' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: d:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc (Line: 75)
+Related violations: <none>
+
+XDCB-5#7 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_sample_counter/U_SCE/I_YESLUT6.U_SRLC16E/CLK*" }]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '46' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: d:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc (Line: 76)
+Related violations: <none>
+
+XDCB-5#8 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_sample_counter/U_SCE/I_YESLUT6.U_SRLC16E/CLK*" }]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '47' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: d:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc (Line: 77)
+Related violations: <none>
+
+XDCB-5#9 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_sample_counter/U_SCMPCE/I_YESLUT6.U_SRL32/CLK*"}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '37' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: d:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc (Line: 60)
+Related violations: <none>
+
+XDCB-5#10 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_sample_counter/U_SCRST/I_YESLUT6.U_SRL32_*/CLK*" }]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '48' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: d:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc (Line: 78)
+Related violations: <none>
+
+XDCB-5#11 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_sample_counter/u_scnt_cmp/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/DUT/I_WHOLE_SLICE.G_SLICE_IDX[*].U_ALL_SRL_SLICE/u_srl*/S*/CLK*"}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '2' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: d:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila_impl.xdc (Line: 10)
+Related violations: <none>
+
+XDCB-5#12 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_sample_counter/u_scnt_cmp/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/DUT/u_srl_drive/CLK*"}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '38' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: d:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc (Line: 61)
+Related violations: <none>
+
+XDCB-5#13 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_window_counter/U_WCE/I_YESLUT6.U_SRLC16E/CLK*" }]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '49' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: d:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc (Line: 79)
+Related violations: <none>
+
+XDCB-5#14 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_window_counter/U_WHCMPCE/I_YESLUT6.U_SRL32/CLK*"}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '42' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: d:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc (Line: 72)
+Related violations: <none>
+
+XDCB-5#15 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_window_counter/U_WLCMPCE/I_YESLUT6.U_SRL32/CLK*"}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '43' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: d:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc (Line: 73)
+Related violations: <none>
+
+XDCB-5#16 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_window_counter/u_wcnt_hcmp/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/DUT/I_WHOLE_SLICE.G_SLICE_IDX[*].U_ALL_SRL_SLICE/u_srl*/S*/CLK*"}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '4' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: d:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila_impl.xdc (Line: 16)
+Related violations: <none>
+
+XDCB-5#17 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_window_counter/u_wcnt_hcmp/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/DUT/u_srl_drive/CLK*"}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '41' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: d:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc (Line: 71)
+Related violations: <none>
+
+XDCB-5#18 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_window_counter/u_wcnt_lcmp/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/DUT/I_WHOLE_SLICE.G_SLICE_IDX[*].U_ALL_SRL_SLICE/u_srl*/S*/CLK*"}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '3' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: d:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila_impl.xdc (Line: 15)
+Related violations: <none>
+
+XDCB-5#19 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter { NAME =~  "*ila_core_inst/u_ila_cap_ctrl/u_cap_addrgen/u_cap_window_counter/u_wcnt_lcmp/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/DUT/u_srl_drive/CLK*"}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '40' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: d:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc (Line: 70)
+Related violations: <none>
+
+XDCB-5#20 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter {NAME =~ *allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/DUT/I_WHOLE_SLICE.G_SLICE_IDX[*].U_ALL_SRL_SLICE/u_srl*/S*/CLK}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '1' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: d:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila_impl.xdc (Line: 5)
+Related violations: <none>
+
+XDCB-5#21 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter {NAME =~ *allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/DUT/u_srl_drive/CLK}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '31' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: d:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc (Line: 40)
+Related violations: <none>
+
+XDCB-5#22 Warning
+Runtime inefficient way to find pin objects  
+The option '-to : [get_pins -hierarchical -filter {NAME =~ *allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/DUT/I_WHOLE_SLICE.G_SLICE_IDX[*].U_ALL_SRL_SLICE/I_IS_TERMINATION_SLICE_W_OUTPUT_REG.DOUT_O_reg/D}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '1' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: d:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila_impl.xdc (Line: 5)
+Related violations: <none>
+
+XDCB-5#23 Warning
+Runtime inefficient way to find pin objects  
+The option '-to : [get_pins -hierarchical -filter {NAME =~ *allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/DUT/I_WHOLE_SLICE.G_SLICE_IDX[*].U_ALL_SRL_SLICE/I_IS_TERMINATION_SLICE_W_OUTPUT_REG.DOUT_O_reg/D}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '31' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: d:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc (Line: 40)
+Related violations: <none>
+
+XDCB-5#24 Warning
+Runtime inefficient way to find pin objects  
+The option 'objects : [get_pins -hierarchical -filter {NAME =~ "*BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/SERIES7_BSCAN.bscan_inst/TCK"}]' of constraint 'create_clock' uses inefficient query to find pin objects (see constraint position '54' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: d:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.runs/impl_1/.Xil/Vivado-24756-Xiang-Lab/dbg_hub_CV.0/out/xsdbm.xdc (Line: 5)
+Related violations: <none>
+
+

@@ -1,0 +1,6 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.sim/sim_1/impl/func/xsim/ZYNQ_tb_func_impl.v,1680964110,verilog,,D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sim_1/new/ZYNQ_tb.v,,Convo_MaxpoolingLayer;Convo_SingleNode;FP16_add;FP16_mult_0;FP16_mult_1;FP16_mult_2;FP16_mult_3;FP16_mult_4;FP16_mult_5;FP16_mult_7;FP16_mult_8;FP16_reciprocal;Fc_Relu;Fc_Relu__parameterized0;ZYNQ_implement;data_ff;data_ff__parameterized0;exponent_and_sum_exp;exponent_compute;find_FP16max;glbl;maxpooling;single_convo_compute;single_maxpooling;single_node_compute;single_node_compute_6;softmax;softmax_func;top_layer,,,,,,,,
+D:/Vivado_Project/ZYNQ_CNN_OptimizationVersion/ZYNQ_CNN_OptimizationVersion.srcs/sim_1/new/ZYNQ_tb.v,1680936981,verilog,,,,ZYNQ_tb,,,,,,,,
